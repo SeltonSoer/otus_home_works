@@ -10,6 +10,5 @@ type Employee struct {
 }
 
 func (e Employee) String() string {
-	str := "User ID: %d; Age: %d; Name: %s; Department ID: %d; "
-	return fmt.Sprintf(str, e.UserID, e.Age, e.Name, e.DepartmentID)
+	return fmt.Sprintf("User ID: %d; Age: %d; Name: %s; Department ID: %d; ", e.UserID, e.Age, e.Name, e.DepartmentID)
 }
